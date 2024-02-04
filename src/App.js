@@ -1,7 +1,12 @@
-import "./App.css";
+import { NavBar } from "./component/NavBar";
+import { Hero } from "./component/Hero";
 
-function App() {
-  return <div className="App">this app</div>;
-}
-
-export default App;
+export const App = () => {
+  return (
+    <div>
+      <NavBar />
+      <Hero />
+    </div>
+  );
+};
+/**npm start to start the code */
